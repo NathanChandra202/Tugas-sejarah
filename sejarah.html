@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Sejarah</title>
+    <style>
+        body {
+            background-color: #765626b2;
+        }
+        .section-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            background-color: white;
+            min-height: 100vh;
+            width: 100%;
+        }
+        .section-container img {
+            width: 100%;
+            max-width: 350px;
+            flex-shrink: 0;
+            margin-bottom: 20px;
+        }
+        .text-content {
+            max-width: 600px;
+        }
+        .btn-read-more {
+            white-space: nowrap;
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: black; 
+        }
+        .read-more-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 1s ease-out, opacity 1s ease-out;
+            opacity: 0;
+        }
+        .read-more-content.show {
+            max-height: 350px;
+            opacity: 1;
+        }
+        @media (min-width: 768px) {
+            .section-container {
+                flex-direction: row;
+                text-align: left;
+                justify-content: space-between;
+            }
+            .section-container img {
+                margin-right: 30px;
+                margin-bottom: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Back</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#satu">1.0</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#dua">2.0</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tiga">3.0</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#empat">4.0</a></li>
+                </ul>
+                <span class="navbar-text">Revolution Industrial</span>
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="satu" class="section-container">
+            <img src="🏭💡 Indústria 1_0 (1760-1840)_ Introdução à Revolução Industrial.jpeg" alt="1.0">
+            <div class="text-content">
+                <h2>Revolusi Industri 1.0</h2>
+                <p>Era mekanisasi menggunakan tenaga uap dan air.</p>
+                <button class="btn-read-more" onclick="toggleReadMore('content1')">Read More</button>
+                <div id="content1" class="read-more-content">
+                    <p>Dimulai pada akhir abad ke-18, Revolusi Industri 1.0 ditandai dengan penemuan mesin uap oleh James Watt pada tahun 1776 di Inggris. Penggunaan mesin uap ini menggantikan tenaga manusia dan hewan dalam proses produksi, terutama di industri tekstil, sehingga meningkatkan efisiensi dan kapasitas produksi. Selain itu, mesin uap juga diterapkan dalam sektor transportasi, seperti kereta api dan kapal uap, yang mempercepat distribusi barang dan mobilitas manusia. sumber : <a href="https://www.leapfactor.io/blog/sejarah-revolusi-industri-10-hingga-40">https://www.leapfactor.io/blog/sejarah-revolusi-industri-10-hingga-40</a> </p>
+                </div>
+            </div>
+        </section>
+        <section id="dua" class="section-container">
+            <img src="Cuplikan layar 2025-02-13 131909.png" alt="2.0">
+            <div class="text-content">
+                <h2>Revolusi Industri 2.0</h2>
+                <p>Era produksi massal dengan listrik dan assembly line.</p>
+                <button class="btn-read-more" onclick="toggleReadMore('content2')">Read More</button>
+                <div id="content2" class="read-more-content">
+                    <p>Pada akhir abad ke-19 hingga awal abad ke-20, Revolusi Industri 2.0 ditandai dengan pemanfaatan tenaga listrik dalam proses produksi. Penggunaan listrik memungkinkan pabrik-pabrik beroperasi lebih efisien dan memperkenalkan konsep produksi massal melalui jalur perakitan. Contohnya, pada tahun 1913, Henry Ford menerapkan lini produksi dengan ban berjalan dalam pembuatan mobil, yang secara drastis meningkatkan jumlah produksi dan menurunkan biaya. sumber : <a href="https://www.leapfactor.io/blog/sejarah-revolusi-industri-10-hingga-40">https://www.leapfactor.io/blog/sejarah-revolusi-industri-10-hingga-40</a> </p>
+                </div>
+            </div>
+        </section>
+        <section id="tiga" class="section-container">
+            <img src="🏭💡 Indústria 3_0 (1908 - 1960)_ A Era da Produção em Massa e da Eletricidade.jpeg" alt="3.0">
+            <div class="text-content">
+                <h2>Revolusi Industri 3.0</h2>
+                <p>Era otomatisasi dan komputerisasi.</p>
+                <button class="btn-read-more" onclick="toggleReadMore('content3')">Read More</button>
+                <div id="content3" class="read-more-content">
+                    <p>Revolusi Industri 3.0 berlangsung pada pertengahan abad ke-20, sekitar tahun 1970-an, dengan munculnya teknologi otomasi dan komputerisasi. Perkembangan ini memungkinkan otomatisasi proses produksi menggunakan komputer dan robot, menggantikan banyak peran manusia dalam pekerjaan rutin dan berulang. Digitalisasi ini meningkatkan presisi, kecepatan, dan efisiensi produksi di berbagai sektor industri. sumber : <a href="https://www.leapfactor.io/blog/sejarah-revolusi-industri-10-hingga-40">https://www.leapfactor.io/blog/sejarah-revolusi-industri-10-hingga-40</a></p>
+                </div>
+            </div>
+        </section>
+        <section id="empat" class="section-container">
+            <img src="AI is shifting gears in the automotive industry….jpeg" alt="4.0">
+            <div class="text-content">
+                <h2>Revolusi Industri 4.0</h2>
+                <p>Era kecerdasan buatan dan IoT.</p>
+                <button class="btn-read-more" onclick="toggleReadMore('content4')">Read More</button>
+                <div id="content4" class="read-more-content">
+                    <p>Memasuki abad ke-21, Revolusi Industri 4.0 ditandai dengan integrasi teknologi digital, Internet of Things (IoT), kecerdasan buatan (AI), dan analisis data dalam proses produksi dan kehidupan sehari-hari. Teknologi-teknologi ini menciptakan sistem yang saling terhubung dan mampu berkomunikasi secara real-time, memungkinkan otomatisasi yang lebih canggih dan efisien. Contohnya, penggunaan sensor cerdas dan analitik data memungkinkan pemeliharaan prediktif pada mesin-mesin industri, mengurangi waktu henti. sumber : <a href="https://www.leapfactor.io/blog/sejarah-revolusi-industri-10-hingga-40">https://www.leapfactor.io/blog/sejarah-revolusi-industri-10-hingga-40</a> </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script>
+        function toggleReadMore(id) {
+            var content = document.getElementById(id);
+            content.classList.toggle("show");
+        }
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
