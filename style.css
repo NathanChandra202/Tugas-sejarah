@@ -1,0 +1,500 @@
+*{
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+body, html{
+    overflow-x: hidden;    
+    margin: 0;
+    padding:0;
+   
+}
+
+nav {
+    background-color: #000000; 
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 30px 119px; 
+    height: 40px;
+    list-style: none;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    width: 85%;
+    z-index: 100;
+
+    }
+
+nav ul {
+    list-style: none; 
+    display: flex;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    color: white;
+}
+
+nav ul li a{
+    transition: color 0.5s ease;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 174, 255);
+}
+
+
+.nav-links li a {
+    list-style: none;
+    text-decoration: none;
+     color: rgb(255, 255, 255);
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 23px;
+     padding: 30px;
+     
+}
+
+.title-nav li{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: rgb(255, 255, 255);
+}
+
+#home{
+    background-color: black;
+    display: flex;
+    color: white;
+   
+    
+}
+
+span{
+    color: rgb(0, 204, 255);
+}
+
+
+#home h1 {
+    position: absolute;
+    left: 120px;
+    top: 170px;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#home h2{
+    position: absolute;
+    top: 240px;
+    left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home p{
+    position: absolute;
+    top: 300px;
+    left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#home img{
+  position: relative;
+  top:100px;
+  left: 790px;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 50%;       
+  background-color: rgba(0, 174, 255, 0.5); 
+  box-shadow: 1px 1px 30px rgba(0, 174, 255, 0.8);   
+  transition: box-shadow 0.3s ease, transform 0.3s ease
+}
+
+#home img:hover{
+  
+  box-shadow: 1px 1px 70px rgba(0, 174, 255, 0.8); 
+  transform: scale(1.03);
+}
+
+#about{
+ text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+ background-color: black;
+ min-height: 850px;
+ margin: 0;
+ padding: 0;
+ color: white;
+}
+
+
+
+#about h2{
+    position: absolute;
+    top: 500px;
+    left: 120px;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 174, 255, 0.8);
+}
+
+     
+#about p{
+    position: relative;
+    top: 600px;
+    left: 120px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 1s;
+    text-align: left;
+    line-height: 1.6; 
+    display: inline-block;
+    
+}
+
+.about-text {
+    max-width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about img{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 280px;
+    left: 840px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.logo1{
+    position: absolute;
+    top: 920px;
+    right: 490px;
+    font-size: 50px;
+
+}
+
+#skill{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: rgb(0, 0, 0);
+    height: 750px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#skill h2{
+    position: relative ;
+    top: 100px; 
+    text-align: center;    
+}
+
+#skill p{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 1700px;
+    left: 120px;
+    font-size: 25px;
+}
+
+#skill h3{
+    position: absolute;
+    top: 1640px;
+    left: 890px;
+    font-size: 30px;
+    color:rgb(0, 204, 255) ;
+}
+
+.img1{
+ position: relative;
+ top: 150px;
+ left: 320px;
+ width: 300px;
+ transition: filter 0.5s ease, transform 1s ease ;
+ border-radius: 100px 600px 0px 600px;
+}
+
+.img1:hover{
+    filter:drop-shadow(rgba(255, 255, 255, 0.8) 0px 8px 30px);
+     transform: scale(1.05);
+}
+
+.img2{
+  position: relative;
+  top: 380px;
+  left: 334px;  
+  width: 300px;
+  transition: filter 0.5s ease, transform 1s ease ;
+  border-radius: 0px 600px 100px 600px;
+}
+
+.img2:hover{
+    filter:drop-shadow(rgba(255, 255, 255, 0.8) 0px 8px 30px);
+    transform: scale(1.05);
+}
+
+.img3{
+    position: relative;
+    top: 150px;
+    left: 30px;
+    width: 300px;
+    transition: filter 0.5s ease, transform 1s ease ;
+    border-radius: 600px 100px 600px 0px;
+}
+
+
+.img3:hover{
+    filter:drop-shadow(rgba(255, 255, 255, 0.8) 0px 8px 30px);
+    transform: scale(1.05);
+}
+
+.img4{
+    position: relative;
+    top: 380px;
+    right: 593px;  
+    width: 300px;
+    transition: filter 0.5s ease, transform 1s ease ;
+    border-radius: 600px 0px 600px 100px;
+}
+
+.img4:hover{
+    filter:drop-shadow(rgba(255, 255, 255, 0.8) 0px 8px 30px);
+    transform: scale(1.05);
+}
+
+#contact{
+background-color: black;
+}
+
+#contact p{
+    color: #ffffff;
+}
+
+#contact h2  {
+
+position: relative;
+left: 582px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #ffffff;
+
+}
+
+footer{
+
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        padding: 6px;
+        background-color: #ffffff;
+        text-align: center;
+}
+
+.animasi-teks{
+    display: inline-block;
+    border-right:3px solid rgb(255, 255, 255);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(13,end) infinite alternate;
+    position: relative;
+    top: 6px;
+}
+
+
+@keyframes typing {
+  0%{
+    width:0;
+  }
+  50%{
+    width: 18ch;
+  }
+  100%{
+    width: 0;
+  }
+}
+ 
+::-webkit-scrollbar {
+    width: 10px; 
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 6px; 
+}
+
+
+@media (max-width: 476px) {
+
+    nav {
+        padding: 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display:  flex;
+    }
+
+    .nav-links li {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+    .title-nav {
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+        gap: 5px;
+    }
+
+    .menu-icon{
+    
+        position: absolute;
+        left: 340px;
+        top: 30px;
+        background-color: white;
+        font-size: 1.8rem;
+        border-radius: 10px;
+    }
+
+
+
+    #home h1 {
+        position: absolute;
+        top: 340px;
+        left: 70px;
+        font-size: 36px;
+    }
+
+    #home h2 {
+        position: absolute;
+        top: 390px;
+        left: 50px;
+        font-size: 24px;
+    }
+
+    #home p {
+        position: absolute;
+        top: 450px;
+        left: 20px;
+        font-size: 16px;
+        width: 90%;
+    }
+
+   
+    #home img {
+        position: relative;
+        top: 110px;
+        left: 0;
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+    }
+
+   
+    #about{
+        height: 500px;
+    }
+
+    #about h2 {
+        position: absolute;
+        top: 750px;
+        left: 115px;
+        font-size: 30px;
+    }
+
+    .about-text {
+        max-width: 150px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    #about p {
+        position: absolute;
+        top: 830px;
+        left: 25px;
+        right: 15px;
+        font-size: 12px;
+        text-align: justify;
+        padding: 0 15px;
+    }
+
+
+
+
+    #skill {
+        height: 800px;
+        padding-bottom: 20px;
+    }
+
+    #skill h2 {
+        position: absolute;
+        left: 45px;
+        top: 1550px;
+        font-size: 30px;
+    }
+
+    .img1{
+        position: absolute;
+        width: 200px;
+        top: 1600px;
+        left: 95px;
+        margin: 10px auto;
+        border-radius: 0%;
+    }
+    
+
+    .img2{
+        position: absolute;
+        width: 200px;
+        top: 1750px;
+        left: 95px;
+        margin: 10px auto;
+        border-radius: 0%;
+    }
+
+
+
+    .img3{  
+        position: absolute;
+        width: 200px;
+        top: 1900px;
+        left: 95px;
+        margin: 10px auto;
+        border-radius: 0%;
+    }
+
+
+
+    .img4{
+        position: absolute;
+        width: 200px;
+        top: 2050px;
+        left: 95px;
+        margin: 10px auto;
+        border-radius: 0%;
+    }
+
+    #contact {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #contact h2 {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
