@@ -1,0 +1,956 @@
+*{
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+body, html{
+    overflow-x: hidden;    
+    margin: 0;
+    padding:0;
+    background-color: #000000; 
+    color: #ffffff;
+   
+}
+
+nav {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 90px; 
+    list-style: none;
+    gap: 500px;
+    text-decoration: none;
+    align-items: center;
+    max-width: 85%;
+    right: 0;
+    position: fixed;
+    }
+
+nav ul {
+    list-style: none; 
+    display: flex;
+    gap: 5px;
+    font-size: larger;
+}
+
+nav ul li a{
+    transition: color 0.5s ease;
+    padding: 20px;
+    color: #ffffff;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 174, 255);
+}
+
+
+.nav-links li a {
+    list-style: none;
+    text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 23px;
+    
+     
+}
+
+.title-nav li{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+
+}
+
+/* section home */
+
+.home{
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+    margin: 20px 25px 25px 0; 
+    padding-top: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color: rgb(0, 204, 255);
+}
+
+
+.home h1 {
+    color: #ffffff;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 47px;
+}
+
+.home img{
+
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;       
+  background-color: rgba(0, 174, 255, 0.5); 
+  box-shadow: 1px 1px 30px rgba(0, 174, 255, 0.8);   
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  will-change: transform, box-shadow; 
+}
+
+.home img:hover{
+    box-shadow: 1px 1px 70px rgba(0, 174, 255, 0.8);
+    transform: scale(1.03);
+}
+
+.home p{
+    display: flex;
+}
+
+
+/* about */
+
+.about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: black;
+    color: white;
+    margin: 14em 0px 25px 90px;
+    padding-top: 140px;
+   }
+   
+   
+   
+   .about h2{
+       font-size: 40px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       color: rgba(0, 174, 255, 0.8);
+   }
+   
+        
+   .about p{
+       font-size: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+       transition: color 1s;
+       text-align: left;
+       line-height: 1.6; 
+       display: inline-block;
+       
+   }
+   
+   .about-text {
+       max-width: 540px;
+       display: flex;
+       flex-wrap: wrap;
+   }
+   
+   .about img{
+       width: 350px;
+       display: flex;
+       flex-direction: column;
+       margin: 0px;
+       padding: 10px;
+   }
+   
+   .logo1{
+    position: relative;
+       bottom: 255px;
+       left: 590px; 
+       font-size: 80px;
+       display: flex;
+
+   }
+
+   .about p{
+    margin-top: 25px;
+   }
+
+   .logo2{
+    position: relative;
+       bottom:200px;
+       left: 590px; 
+       font-size: 80px;
+       display: flex;
+   }
+   /* skill */
+.skill {
+     margin: 220px 0px 100px 0px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+.skill h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.img1{
+    position: relative;
+    top: 60px;
+    left: 330px;
+    width: 300px;
+    border-radius: 100px 600px 0px 600px;
+   }
+   
+   .img2{
+     position: relative;
+     top: 280px;
+     left:335px;  
+     width: 300px;
+     border-radius: 0px 600px 100px 600px;
+   }
+   
+
+   .img3{
+       position: relative;
+       top: 60px;
+       left: 30px;
+       width: 300px;
+       border-radius: 600px 100px 600px 0px;
+   }
+   
+   
+   .img4{
+       position: relative;
+       top: 280px;
+       right: 585px;  
+       width: 300px;
+       border-radius: 600px 0px 600px 100px;
+   }
+   
+
+   .animasi-teks{
+    display: inline-block;
+    border-right:3px solid rgb(255, 255, 255);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(13,end) infinite alternate;
+    position: relative;
+    top: 6px;
+}
+
+ .contact{
+    margin: 300px 0px 0px 0px;
+    }
+    
+    .contact p{
+        color: #ffffff;
+    }
+    
+    .contact h2  {
+    
+    position: relative;
+    left: 582px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    
+    }
+
+    .card1{
+        width: 66px;
+        position: relative;
+        top: 30px;
+        left: 594px;
+        height: 70px;
+        transition: box-shadow 1s ease, transform 1s ease;
+        border-radius: 20px;
+    }
+
+    .card1:hover{
+        box-shadow: 1px 1px 80px rgba(212, 0, 255, 0.8);
+        transform: scale(1.03);
+    }
+
+    .card1 i{
+        font-size: 70px;   
+        position: relative;
+        left: 3px;
+    }
+
+
+
+    footer{
+
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        padding: 6px;
+        color:white;
+        text-align: center;
+        margin-top: 100px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    min-width: 50px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    opacity: 0; 
+    visibility: hidden;
+    transition: opacity 1s ease, visibility 1s ease;
+}
+
+.dropdown:hover .dropdown-content {
+    opacity: 1; /* Ubah opacity menjadi 1 saat di-hover */
+    visibility: visible; /* Ubah visibility menjadi visible saat di-hover */
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Animasi untuk background-color */
+}
+
+
+
+@keyframes typing {
+  0%{
+    width:0;
+  }
+  50%{
+    width: 18ch;
+  }
+  100%{
+    width: 0;
+  }
+}
+ 
+::-webkit-scrollbar {
+    width: 10px; 
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 6px; 
+}
+
+
+@media (min-width: 1440px) {
+
+    .about{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        background-color: black;
+        color: white;
+        margin: 14em 0px 25px 180px;
+        padding-top: 140px;
+       }
+       
+       
+       
+       .about h2{
+           font-size: 40px;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           color: rgba(0, 174, 255, 0.8);
+       }
+       
+            
+       .about p{
+           font-size: 20px;
+           font-family: Arial, Helvetica, sans-serif;
+           transition: color 1s;
+           text-align: left;
+           line-height: 1.6; 
+           display: inline-block;
+           
+       }
+       
+       .about-text {
+           max-width: 540px;
+           display: flex;
+           flex-wrap: wrap;
+       }
+       
+       .about img{
+           width: 350px;
+           display: flex;
+           flex-direction: column;
+           margin: 0px;
+           padding: 10px;
+       }
+       
+       .logo1{
+        position: relative;
+           bottom: 255px;
+           left: 590px; 
+           font-size: 80px;
+           display: flex;
+    
+       }
+    
+       .about p{
+        margin-top: 25px;
+       }
+    
+       .logo2{
+        position: relative;
+           bottom:200px;
+           left: 590px; 
+           font-size: 80px;
+           display: flex;
+       }
+       /* skill */
+    .skill {
+         margin: 220px 0px 100px 0px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+    
+    .skill h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .img1{
+        position: relative;
+        top: 60px;
+        left: 330px;
+        width: 300px;
+        transition: filter 0.5s ease, transform 1s ease ;
+        border-radius: 100px 600px 0px 600px;
+       }
+       
+       .img1:hover{
+           filter:drop-shadow(rgba(255, 255, 255, 0.8) 0px 8px 30px);
+            transform: scale(1.05);
+       }
+       
+       .img2{
+         position: relative;
+         top: 280px;
+         left:335px;  
+         width: 300px;
+         transition: filter 0.5s ease, transform 1s ease ;
+         border-radius: 0px 600px 100px 600px;
+       }
+       
+       .img2:hover{
+           filter:drop-shadow(rgba(255, 255, 255, 0.8) 0px 8px 30px);
+           transform: scale(1.05);
+       }
+       
+       .img3{
+           position: relative;
+           top: 60px;
+           left: 30px;
+           width: 300px;
+           transition: filter 0.5s ease, transform 1s ease ;
+           border-radius: 600px 100px 600px 0px;
+       }
+       
+       
+       .img3:hover{
+           filter:drop-shadow(rgba(255, 255, 255, 0.8) 0px 8px 30px);
+           transform: scale(1.05);
+       }
+       
+       .img4{
+           position: relative;
+           top: 280px;
+           right: 585px;  
+           width: 300px;
+           transition: filter 0.5s ease, transform 1s ease ;
+           border-radius: 600px 0px 600px 100px;
+       }
+       
+       .img4:hover{
+           filter:drop-shadow(rgba(255, 255, 255, 0.8) 0px 8px 30px);
+           transform: scale(1.05);
+       }
+    
+       .animasi-teks{
+        display: inline-block;
+        border-right:3px solid rgb(255, 255, 255);
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 3s steps(13,end) infinite alternate;
+        position: relative;
+        top: 6px;
+    }
+    
+     .contact{
+        margin: 300px 0px 0px 0px;
+        }
+        
+        .contact p{
+            color: #ffffff;
+        }
+        
+        .contact h2  {
+        
+        position: relative;
+        left: 582px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        
+        }
+    
+    
+        footer{
+    
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            padding: 6px;
+            color:white;
+            text-align: center;
+    }
+
+}
+
+@media (max-width: 1024px){
+
+
+    nav {
+        display: flex;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 130px; 
+        list-style: none;
+        text-decoration: none;
+        flex-direction: row;
+        align-items: center;
+        max-width: 85%;
+        right: 0;
+        position: fixed;
+        }
+    
+    nav ul {
+        list-style: none; 
+        display: flex;
+        gap: 5px;
+        font-size: larger;
+    }
+    
+    nav ul li a{
+        transition: color 0.5s ease;
+        padding: 10px;
+        color: #ffffff;
+    }
+    
+    nav ul li a:hover{
+        color: rgb(0, 174, 255);
+    }
+    
+    
+    .nav-links li a {
+        list-style: none;
+        text-decoration: none;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 23px;
+        
+         
+    }
+    
+    .title-nav li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    }
+    
+    /* section home */
+    
+    .home{
+        display: flex;
+        justify-content: center;
+        gap: 20rem;
+        margin: 20px 25px 25px 0; 
+        padding-top: 140px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    span{
+        color: rgb(0, 204, 255);
+    }
+    
+    
+    .home h1 {
+        color: #ffffff;
+        font-size: 43px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 10px;
+        padding-left: 80px;
+    }
+
+    .home h2{
+        padding-left: 80px;
+    }
+    
+    .home img{
+    
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;       
+      background-color: rgba(0, 174, 255, 0.5); 
+      box-shadow: 1px 1px 30px rgba(0, 174, 255, 0.8);   
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+      will-change: transform, box-shadow; 
+      padding-top: px;
+    }
+    
+    .home img:hover{
+        box-shadow: 1px 1px 70px rgba(0, 174, 255, 0.8);
+        transform: scale(1.03);
+    }
+    
+    .home p{
+    
+        padding-left: 80px;
+        font-size: 20px;
+    
+    }
+    
+    
+    /* about */
+    
+    .about{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        background-color: black;
+        color: white;
+        margin: 14em 0px 25px 40px;
+        padding-top: 140px;
+       }
+       
+       
+       
+       .about h2{
+           font-size: 40px;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           color: rgba(0, 174, 255, 0.8);
+       }
+       
+            
+       .about p{
+           font-size: 20px;
+           font-family: Arial, Helvetica, sans-serif;
+           transition: color 1s;
+           text-align: left;
+           line-height: 1.6; 
+           display: inline-block;
+           
+       }
+       
+       .about-text {
+           max-width: 540px;
+           display: flex;
+           flex-wrap: wrap;
+       }
+       
+       .about img{
+           width: 350px;
+           display: flex;
+           flex-direction: column;
+           margin: 0px;
+           padding: 10px;
+       }
+       
+       .logo1{
+        position: relative;
+           bottom: 255px;
+           left: 590px; 
+           font-size: 80px;
+           display: flex;
+    
+       }
+    
+       .about p{
+        margin-top: 25px;
+       }
+    
+       .logo2{
+        position: relative;
+           bottom:200px;
+           left: 590px; 
+           font-size: 80px;
+           display: flex;
+       }
+       /* skill */
+    .skill {
+         margin: 100px 0px 100px 0px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+    
+    .skill h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .img1{
+        position: relative;
+        top: 60px;
+        left: 190px;
+        width: 300px;
+        border-radius: 100px 600px 0px 600px;
+       }
+       
+       .img2{
+         position: relative;
+         top: 294px;
+         left:195px;  
+         width: 300px;
+         border-radius: 0px 600px 100px 600px;
+       }
+       
+       
+       .img3{
+           position: absolute;
+           top: 1516px;
+           left: 500px;
+           width: 300px;
+           border-radius: 600px 100px 600px 0px;
+       }
+       
+       
+       .img4{
+           position: absolute;
+           top: 1750px;
+           right: 535px;  
+           width: 300px;
+           border-radius: 600px 0px 600px 100px;
+       }
+       
+    
+       .animasi-teks{
+        display: inline-block;
+        border-right:3px solid rgb(255, 255, 255);
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 3s steps(13,end) infinite alternate;
+        position: relative;
+        top: 6px;
+    }
+    
+     .contact{
+        margin: 300px 0px 0px 0px;
+        }
+        
+        .contact p{
+            color: #ffffff;
+        }
+        
+        .contact h2  {
+        position: relative;
+        left: 440px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        
+        }
+
+        .card1{
+            width: 66px;
+            position: relative;
+            top: 30px;
+            left: 450px;
+            height: 70px;
+            transition: box-shadow 1s ease, transform 1s ease;
+            border-radius: 20px;
+            background-color: #ffffff;
+        }
+    
+        .card1:hover{
+            box-shadow: 1px 1px 80px rgba(212, 0, 255, 0.8);
+            transform: scale(1.03);
+        }
+    
+        .card1 i{
+            font-size: 70px;   
+            position: relative;
+            left: 3px;
+        }
+    
+    
+        footer{
+    
+            position: relative;
+            right: 30px;
+            bottom: 0;
+            width: 100%;
+            padding: 6px;
+            color:white;
+            text-align: center;
+    }
+    
+
+}
+
+@media (max-width: 476px) {
+
+    nav {
+        padding: 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display:  flex;
+    }
+
+    .nav-links li {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+    .title-nav {
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+        gap: 5px;
+    }
+
+    .menu-icon{
+    
+        position: absolute;
+        left: 340px;
+        top: 30px;
+        background-color: white;
+        font-size: 1.8rem;
+        border-radius: 10px;
+    }
+
+
+
+    #home h1 {
+        position: absolute;
+        top: 340px;
+        left: 70px;
+        font-size: 36px;
+    }
+
+    #home h2 {
+        position: absolute;
+        top: 390px;
+        left: 50px;
+        font-size: 24px;
+    }
+
+    #home p {
+        position: absolute;
+        top: 450px;
+        left: 20px;
+        font-size: 16px;
+        width: 90%;
+    }
+
+   
+    #home img {
+        position: relative;
+        top: 110px;
+        left: 0;
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+    }
+
+   
+    #about{
+        height: 500px;
+    }
+
+    #about h2 {
+        position: absolute;
+        top: 750px;
+        left: 115px;
+        font-size: 30px;
+    }
+
+    .about-text {
+        max-width: 150px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    #about p {
+        position: absolute;
+        top: 830px;
+        left: 25px;
+        right: 15px;
+        font-size: 12px;
+        text-align: justify;
+        padding: 0 15px;
+    }
+
+
+
+
+    #skill {
+        height: 800px;
+        padding-bottom: 20px;
+    }
+
+    #skill h2 {
+        position: absolute;
+        left: 45px;
+        top: 1550px;
+        font-size: 30px;
+    }
+
+    .img1{
+        position: absolute;
+        width: 200px;
+        top: 1600px;
+        left: 95px;
+        margin: 10px auto;
+        border-radius: 0%;
+    }
+    
+
+    .img2{
+        position: absolute;
+        width: 200px;
+        top: 1750px;
+        left: 95px;
+        margin: 10px auto;
+        border-radius: 0%;
+    }
+
+
+
+    .img3{  
+        position: absolute;
+        width: 200px;
+        top: 1900px;
+        left: 95px;
+        margin: 10px auto;
+        border-radius: 0%;
+    }
+
+
+
+    .img4{
+        position: absolute;
+        width: 200px;
+        top: 2050px;
+        left: 95px;
+        margin: 10px auto;
+        border-radius: 0%;
+    }
+
+    #contact {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #contact h2 {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+ @media (max-width: 768px) {
+
+}
+
+@media (max-width: 425px){
+    
+}
